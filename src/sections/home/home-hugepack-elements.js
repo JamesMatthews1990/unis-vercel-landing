@@ -109,8 +109,7 @@ export default function HomeHugePackElements() {
             color: 'text.secondary',
           }}
         >
-          We collected most popular elements. Menu, sliders, buttons, inputs etc. are all here. Just
-          dive in!
+          UNIS makes it simple and secure for you to manage your company in one place
         </Typography>
       </m.div>
 
