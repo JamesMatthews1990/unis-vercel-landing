@@ -1,4 +1,5 @@
 import { m } from 'framer-motion';
+import { useEffect, useState } from 'react';
 // @mui
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -100,6 +101,7 @@ export default function HomeAdvertisement() {
         alignItems="center"
         direction={{ xs: 'column', md: 'row' }}
         sx={{
+          // backgroundColor: 'red',
           ...bgGradient({
             direction: '135deg',
             startColor: theme.palette.primary.main,

@@ -108,12 +108,13 @@ export default function HomeForDesigner() {
           <Grid xs={12} md={6}>
             {renderDescription}
           </Grid>
-          <div style={{ borderRadius: 20 }}>
-            <img
-              src="https://i.imgur.com/0ZDTjQd.jpg"
-              alt=""
-              style={{ width: 550, objectFit: 'contain', borderRadius: 40, marginTop: 100 }}
-            />
+
+          <div style={{ marginRight: 30, marginTop: -60, marginBottom: -40 }}>
+            <video width="580" height="460" autoPlay loop muted>
+              {/* <source src="https://i.imgur.com/YQpGMYK.mp4" type="video/mp4" /> */}
+              <source src="https://i.imgur.com/2Nbqnkk.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
 
           {/* {mdUp && <Grid md={6}>{renderImg}</Grid>} */}
