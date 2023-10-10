@@ -124,7 +124,7 @@ export default function HomePricing() {
           </m.div>
 
           <m.div variants={varFade().inUp}>
-            <Button color="inherit" size="large" variant="contained" href="#">
+            <Button color="inherit" size="large" variant="contained" href="/contact-us">
               Contact UNIS Today
             </Button>
           </m.div>

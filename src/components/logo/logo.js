@@ -84,7 +84,7 @@ const Logo = forwardRef(({ disabledLink = false, sx, ...other }, ref) => {
     // <Link component={RouterLink} href="/" sx={{ display: 'contents' }}>
     //   {logo}
     // </Link>
-    <div style={{ marginTop: 15 }}>
+    <div style={{ marginTop: 30 }}>
       <img src="https://i.imgur.com/5qpC4Ky.png" alt="" style={{ height: 70, width: 70 }} />
     </div>
   );

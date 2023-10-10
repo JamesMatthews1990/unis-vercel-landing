@@ -22,12 +22,14 @@ import { HEADER } from 'src/layouts/config-layout';
 import Iconify from 'src/components/iconify';
 import { RouterLink } from 'src/routes/components';
 import { MotionContainer, varFade } from 'src/components/animate';
+import cardrender from 'src/cardrender.avi';
 
 // ----------------------------------------------------------------------
 
 const StyledRoot = styled('div')(({ theme }) => ({
   ...bgGradient({
-    color: alpha(theme.palette.background.default, theme.palette.mode === 'light' ? 0.9 : 0.94),
+    // color: alpha(theme.palette.background.default, theme.palette.mode === 'light' ? 0.9 : 0.94),
+    color: alpha('#000000', theme.palette.mode === 'light' ? 0.9 : 0.94),
     imgUrl: '/assets/background/overlay_3.jpg',
   }),
   width: '100%',
@@ -44,6 +46,7 @@ const StyledWrapper = styled('div')(({ theme }) => ({
   height: '100%',
   overflow: 'hidden',
   position: 'relative',
+  backgroundColor: 'black',
   [theme.breakpoints.up('md')]: {
     marginTop: HEADER.H_DESKTOP_OFFSET,
   },
@@ -377,9 +380,11 @@ export default function HomeHero() {
       alt=""
       style={{ width: 1200, objectFit: 'contain' }}
     /> */}
+
       <div style={{ marginRight: 30, marginTop: -60, marginBottom: -40 }}>
         <video width="580" height="460" autoPlay loop muted>
-          <source src="https://i.imgur.com/18LJnI5.mp4" type="video/mp4" />
+          {/* <source src="https://i.imgur.com/YQpGMYK.mp4" type="video/mp4" /> */}
+          <source src="https://i.imgur.com/2Nbqnkk.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

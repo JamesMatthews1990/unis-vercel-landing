@@ -27,7 +27,7 @@ export default function HomeForDesigner() {
     <Box sx={{ textAlign: { xs: 'center', md: 'unset' }, mt: { xs: 10, md: 20 } }}>
       <m.div variants={varFade().inUp}>
         <Typography component="div" variant="overline" sx={{ color: 'text.disabled' }}>
-          Professional Kit
+          LEADING TECHNOLOGY
         </Typography>
       </m.div>
 
@@ -88,13 +88,16 @@ export default function HomeForDesigner() {
         overflow: 'hidden',
         position: 'relative',
         ...bgGradient({
-          startColor: `${theme.palette.grey[900]} 25%`,
-          endColor: alpha(theme.palette.grey[900], 0),
+          // startColor: `${theme.palette.grey[900]} 25%`,
+          // endColor: alpha(theme.palette.grey[900], 0),
+          startColor: '#000000',
+          endColor: '#000000',
           imgUrl: '/assets/images/home/for_designer.webp',
         }),
         ...(mdUp && {
           ...bgGradient({
-            color: alpha(theme.palette.background.default, 0.8),
+            // color: alpha(theme.palette.background.default, 0.8),
+            color: '#000000',
             imgUrl: '/assets/background/overlay_4.jpg',
           }),
         }),
