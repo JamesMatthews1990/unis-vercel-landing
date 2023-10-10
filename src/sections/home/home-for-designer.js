@@ -105,14 +105,14 @@ export default function HomeForDesigner() {
     >
       <Container component={MotionViewport}>
         <Grid container>
-          <Grid xs={12} md={6}>
+          <Grid xs={12} md={8}>
             {renderDescription}
           </Grid>
 
-          <div style={{ marginRight: 30, marginTop: -60, marginBottom: -40 }}>
-            <video width="580" height="460" autoPlay loop muted>
+          <div style={{ marginTop: 100 }}>
+            <video width="360" height="300" autoPlay loop muted>
               {/* <source src="https://i.imgur.com/YQpGMYK.mp4" type="video/mp4" /> */}
-              <source src="https://i.imgur.com/2Nbqnkk.mp4" type="video/mp4" />
+              <source src="https://i.imgur.com/YQpGMYK.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>

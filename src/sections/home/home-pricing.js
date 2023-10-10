@@ -245,7 +245,7 @@ function PlanCard({ plan, sx, ...other }) {
           size="small"
           target="_blank"
           rel="noopener"
-          href={paths.minimalUI}
+          href={paths.contact}
           endIcon={<Iconify icon="eva:arrow-ios-forward-fill" />}
         >
           Learn more
