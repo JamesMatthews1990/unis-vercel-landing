@@ -16,7 +16,7 @@ import { MotionContainer, varFade } from 'src/components/animate';
 const CONTACTS = [
   {
     country: 'Email',
-    address: 'enquiries@uniscompliance.com',
+    address: 'enquiries@unis.one',
     phoneNumber: '',
   },
   // {
