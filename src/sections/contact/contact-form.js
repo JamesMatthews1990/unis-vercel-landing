@@ -18,7 +18,8 @@ export default function ContactForm() {
         </Typography>
       </m.div>
       <m.div variants={varFade().inUp}>
-        <Typography variant="h3">Email: enquiries@uniscompliance.com</Typography>
+        <Typography variant="h3">Email: enquiries@unis.one</Typography>
+        <Typography variant="h3">Phone: 03455 841 911</Typography>
       </m.div>
 
       {/* <Stack spacing={3}>

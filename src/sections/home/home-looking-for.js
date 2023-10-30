@@ -24,7 +24,6 @@ export default function HomeLookingFor() {
       color="inherit"
       size="large"
       variant="outlined"
-      target="_blank"
       rel="noopener"
       href={paths.zoneUI}
       endIcon={<Iconify icon="eva:arrow-ios-forward-fill" />}
@@ -44,7 +43,7 @@ export default function HomeLookingFor() {
     >
       <m.div variants={varFade().inDown}>
         <Typography variant="overline" component="div" sx={{ color: 'text.disabled' }}>
-          UNIS Compliance
+          UNIS One
         </Typography>
       </m.div>
 
@@ -82,17 +81,12 @@ export default function HomeLookingFor() {
         <Grid xs={12} md={7}>
           <m.div variants={varFade().inUp}>
             {/* <Image disabledEffect alt="rocket" src="/assets/images/home/zone_landing.webp" /> */}
-            {/* <video width="580" height="460" autoPlay loop muted> */}
-            {/* <source src="https://i.imgur.com/YQpGMYK.mp4" type="video/mp4" /> */}
-            {/* <source src="https://i.imgur.com/2Nbqnkk.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video> */}
-            <div style={{ borderRadius: 20 }}>
-              <img
-                src="https://i.imgur.com/0ZDTjQd.jpg"
-                alt=""
-                style={{ width: 550, objectFit: 'contain', borderRadius: 40, marginTop: 100 }}
-              />
+            <div style={{}}>
+              <video width="460" height="350" autoPlay loop muted>
+                {/* <source src="https://i.imgur.com/YQpGMYK.mp4" type="video/mp4" /> */}
+                <source src="https://i.imgur.com/sCHNpyO.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </m.div>
         </Grid>

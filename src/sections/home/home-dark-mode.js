@@ -68,7 +68,7 @@ export default function HomeDarkMode() {
         <img
           src="https://i.imgur.com/f4SITSe.png"
           alt=""
-          style={{ height: '80%', borderRadius: 40 }}
+          style={{ height: '80%', borderRadius: 40, objectFit: 'contain' }}
         />
       </Container>
     </Box>

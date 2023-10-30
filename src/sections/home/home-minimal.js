@@ -14,12 +14,12 @@ import { MotionViewport, varFade } from 'src/components/animate';
 const CARDS = [
   {
     icon: ' /assets/icons/home/ic_make_brand.svg',
-    title: 'Compliance',
+    title: 'Organisation',
     description: "Stay on top of compliance with real-time access to all your team's credentials",
   },
   {
     icon: ' /assets/icons/home/ic_design.svg',
-    title: 'Organisation',
+    title: 'Communication',
     description: 'Track the progress of your team and projects on one simple-to-use dashboard',
   },
   {
@@ -48,14 +48,12 @@ export default function HomeMinimal() {
       >
         <m.div variants={varFade().inUp}>
           <Typography component="div" variant="overline" sx={{ color: 'text.disabled' }}>
-            UNIS Compliance
+            UNIS One
           </Typography>
         </m.div>
 
         <m.div variants={varFade().inDown}>
-          <Typography variant="h2">
-            How does UNIS <br /> help you?
-          </Typography>
+          <Typography variant="h2">Stay organised and make more progress</Typography>
         </m.div>
       </Stack>
 

@@ -25,7 +25,7 @@ export default function HomeCleanInterfaces() {
     >
       <m.div variants={varFade().inUp}>
         <Typography component="div" variant="overline" sx={{ color: 'text.disabled' }}>
-          UNIS Compliance
+          UNIS One
         </Typography>
       </m.div>
 

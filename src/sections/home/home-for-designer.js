@@ -52,7 +52,6 @@ export default function HomeForDesigner() {
           size="large"
           variant="contained"
           endIcon={<Iconify icon="eva:arrow-ios-forward-fill" />}
-          target="_blank"
           rel="noopener"
           href={paths.contact}
         >
@@ -90,14 +89,14 @@ export default function HomeForDesigner() {
         ...bgGradient({
           // startColor: `${theme.palette.grey[900]} 25%`,
           // endColor: alpha(theme.palette.grey[900], 0),
-          startColor: '#000000',
-          endColor: '#000000',
+          startColor: '#151c24',
+          endColor: '#151c24',
           imgUrl: '/assets/images/home/for_designer.webp',
         }),
         ...(mdUp && {
           ...bgGradient({
             // color: alpha(theme.palette.background.default, 0.8),
-            color: '#000000',
+            color: '#151c24',
             imgUrl: '/assets/background/overlay_4.jpg',
           }),
         }),
@@ -112,7 +111,7 @@ export default function HomeForDesigner() {
           <div style={{ marginTop: 100 }}>
             <video width="360" height="300" autoPlay loop muted>
               {/* <source src="https://i.imgur.com/YQpGMYK.mp4" type="video/mp4" /> */}
-              <source src="https://i.imgur.com/YQpGMYK.mp4" type="video/mp4" />
+              <source src="https://i.imgur.com/UpjynxP.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>

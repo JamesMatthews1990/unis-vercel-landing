@@ -40,7 +40,7 @@ export default function Header() {
       <Toolbar
         disableGutters
         sx={{
-          backgroundColor: '#000000',
+          backgroundColor: '#151c24',
           height: {
             xs: HEADER.H_MOBILE,
             md: HEADER.H_DESKTOP,
@@ -52,8 +52,8 @@ export default function Header() {
           ...(offsetTop && {
             ...bgBlur({
               // color: theme.palette.background.default,
-              color: '#000000',
-              backgroundColor: '#000000',
+              color: '#151c24',
+              backgroundColor: '#151c24',
             }),
             height: {
               md: HEADER.H_DESKTOP_OFFSET,
@@ -91,18 +91,18 @@ export default function Header() {
           {mdUp && <NavDesktop offsetTop={offsetTop} data={navConfig} />}
 
           <Stack alignItems="center" direction={{ xs: 'row', md: 'row-reverse' }}>
-            <Button variant="contained" target="_blank" rel="noopener" href={paths.contact}>
+            <Button variant="contained" rel="noopener" href={paths.contact}>
               Contact UNIS
             </Button>
 
-            {mdUp && <LoginButton />}
+            {/* {mdUp && <LoginButton />} */}
 
-            <SettingsButton
+            {/* <SettingsButton
               sx={{
                 ml: { xs: 1, md: 0 },
                 mr: { md: 2 },
               }}
-            />
+            /> */}
 
             {!mdUp && <NavMobile offsetTop={offsetTop} data={navConfig} />}
           </Stack>

@@ -28,8 +28,8 @@ import cardrender from 'src/cardrender.avi';
 
 const StyledRoot = styled('div')(({ theme }) => ({
   ...bgGradient({
-    // color: alpha(theme.palette.background.default, theme.palette.mode === 'light' ? 0.9 : 0.94),
-    color: alpha('#000000', theme.palette.mode === 'light' ? 0.9 : 0.94),
+    color: alpha(theme.palette.background.default, theme.palette.mode === 'light' ? 0.9 : 0.94),
+    // color: alpha('#000000', theme.palette.mode === 'light' ? 0.9 : 0.94),
     imgUrl: '/assets/background/overlay_3.jpg',
   }),
   width: '100%',
@@ -46,7 +46,8 @@ const StyledWrapper = styled('div')(({ theme }) => ({
   height: '100%',
   overflow: 'hidden',
   position: 'relative',
-  backgroundColor: 'black',
+  // backgroundColor: theme.palette.background.default,
+  backgroundColor: '#151c24',
   [theme.breakpoints.up('md')]: {
     marginTop: HEADER.H_DESKTOP_OFFSET,
   },
@@ -180,12 +181,12 @@ export default function HomeHero() {
     >
       <m.div variants={varFade().in}>
         <Typography
-          variant="h2"
+          variant="h3"
           sx={{
             textAlign: 'center',
           }}
         >
-          Fast. Simple. Secure
+          Manage Your Construction Company in One Place
         </Typography>
       </m.div>
 
@@ -204,8 +205,8 @@ export default function HomeHero() {
       </m.div>
 
       <m.div variants={varFade().in}>
-        <Typography variant="body2" sx={{ textAlign: 'center', fontSize: 16, fontWeight: '700' }}>
-          All you need to manage your construction company in one place - wherever you are
+        <Typography variant="body2" sx={{ textAlign: 'center', fontSize: 18, fontWeight: '700' }}>
+          Speed up your processes, stay organised & have <u>everything you need in one place</u>
         </Typography>
       </m.div>
 
@@ -238,7 +239,7 @@ export default function HomeHero() {
               variant="contained"
               startIcon={<Iconify icon="eva:flash-fill" width={24} />}
             >
-              Unlock UNIS
+              Get Started
             </Button>
 
             <Link
@@ -273,7 +274,7 @@ export default function HomeHero() {
         </Stack>
       </m.div>
 
-      <Stack spacing={3} sx={{ textAlign: 'center' }}>
+      {/* <Stack spacing={3} sx={{ textAlign: 'center' }}>
         <m.div variants={varFade().in}>
           <Typography variant="overline" sx={{ opacity: 0.4 }}>
             Available For
@@ -291,7 +292,7 @@ export default function HomeHero() {
             </m.div>
           ))}
         </Stack>
-      </Stack>
+      </Stack> */}
     </Stack>
   );
 
@@ -381,10 +382,10 @@ export default function HomeHero() {
       style={{ width: 1200, objectFit: 'contain' }}
     /> */}
 
-      <div style={{ marginRight: 30, marginTop: -60, marginBottom: -40 }}>
+      <div style={{ marginRight: 30, marginTop: 120 }}>
         <video width="580" height="460" autoPlay loop muted>
           {/* <source src="https://i.imgur.com/YQpGMYK.mp4" type="video/mp4" /> */}
-          <source src="https://i.imgur.com/2Nbqnkk.mp4" type="video/mp4" />
+          <source src="https://i.imgur.com/eam4jJU.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

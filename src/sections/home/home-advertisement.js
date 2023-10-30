@@ -33,8 +33,8 @@ export default function HomeAdvertisement() {
         variants={varFade().inDown}
         sx={{ color: 'common.white', mb: 5, typography: 'h2' }}
       >
-        Get started with
-        <br /> UNIS kit today
+        Call UNIS now on <br />
+        03455 841 911
       </Box>
 
       <Stack
@@ -47,7 +47,6 @@ export default function HomeAdvertisement() {
             color="inherit"
             size="large"
             variant="contained"
-            target="_blank"
             rel="noopener"
             href={paths.contact}
             sx={{
@@ -64,7 +63,6 @@ export default function HomeAdvertisement() {
             color="inherit"
             size="large"
             variant="outlined"
-            target="_blank"
             rel="noopener"
             href={paths.contact}
             endIcon={<Iconify icon="eva:external-link-fill" width={16} sx={{ mr: 0.5 }} />}

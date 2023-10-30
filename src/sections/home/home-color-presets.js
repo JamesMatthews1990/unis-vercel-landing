@@ -27,7 +27,7 @@ export default function HomeColorPresets() {
     <Stack spacing={3} sx={{ textAlign: 'center' }}>
       <m.div variants={varFade().inDown}>
         <Typography component="div" variant="overline" sx={{ color: 'text.disabled' }}>
-          UNIS COMPLIANCE
+          UNIS One
         </Typography>
       </m.div>
 

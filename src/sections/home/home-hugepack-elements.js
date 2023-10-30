@@ -72,7 +72,6 @@ export default function HomeHugePackElements() {
         size="large"
         color="inherit"
         variant="outlined"
-        target="_blank"
         rel="noopener"
         href={paths.contact}
         endIcon={<Iconify icon="eva:arrow-ios-forward-fill" width={18} sx={{ ml: -0.5 }} />}
@@ -92,13 +91,13 @@ export default function HomeHugePackElements() {
     >
       <m.div variants={varFade().inUp}>
         <Typography component="div" variant="overline" sx={{ color: 'text.disabled' }}>
-          UNIS Compliance
+          UNIS One
         </Typography>
       </m.div>
 
       <m.div variants={varFade().inUp}>
         <Typography variant="h2" sx={{ my: 3 }}>
-          Effortlessly Manage Your Projects
+          All your team needs to move fast & stay ahead
         </Typography>
       </m.div>
 
